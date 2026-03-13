@@ -1,1 +1,1 @@
-conflict.txt
+service logic A
