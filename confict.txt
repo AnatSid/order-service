@@ -1,1 +1,2 @@
+service logic B
 service logic A
