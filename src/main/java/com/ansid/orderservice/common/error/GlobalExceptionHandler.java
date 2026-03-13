@@ -36,14 +36,14 @@ public class GlobalExceptionHandler {
         );
     }
 
-    @ExceptionHandler(Exception.class)
-    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    public ApiError handleUnexpected(Exception ex) {
-
-        return new ApiError(
-                "INTERNAL_ERROR",
-                "Unexpected error occurred",
-                null
-        );
-    }
+//    @ExceptionHandler(Exception.class)
+//    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+//    public ApiError handleUnexpected(Exception ex) {
+//
+//        return new ApiError(
+//                "INTERNAL_ERROR",
+//                "Unexpected error occurred",
+//                null
+//        );
+//    }
 }
